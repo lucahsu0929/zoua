@@ -6,6 +6,8 @@
 .project
 .settings/
 
+application.properties
+
 # Maven
 target/
 
