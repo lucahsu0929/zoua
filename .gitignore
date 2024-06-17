@@ -1,33 +1,153 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# IntelliJ IDEA
+.idea/
 
-### STS ###
-.apt_generated
+# Eclipse
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Maven
+target/
+
+# Gradle
+build/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Node.js
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+*.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE files
 *.iml
 *.ipr
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Configuration files
+*.properties
+*.yml
+*.yaml
 
-### VS Code ###
-.vscode/
+# Environment variables file
+.env
+
+# Compiled Java bytecode
+*.class
+
+# Compiled Python files
+*.pyc
+
+# Logs
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Teraform files
+.terraform/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Maven Wrapper
+.mvn/
+
+# Spring Boot
+target/
+!target/application.jar  # Include the Spring Boot application JAR
+
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
+
+# Miscellaneous
+*.class  # Java classes
+*.war  # Java WAR files
+*.ear  # Java EAR files
+*.jar  # Java JAR files
+
+# Mac specific
+.DS_Store
+
+# Vim
+*.swp
+
+# Sublime text
+*.sublime-workspace
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# iOS/MacOS
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.xcuserstate
+DerivedData
+*.hmap
+*.ipa
+*.xccheckout
+
+# Visual Studio
+.vs
+bin/
+obj/
+
+# Xamarin
+*.userprefs
+*.suo
+*.xccheckout
+
+# Rider
+.idea/
+*.sln.iml
+
