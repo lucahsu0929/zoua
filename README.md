@@ -46,3 +46,17 @@
 - **資料庫整合：** 使用PostgreSQL存儲產品信息、訂單詳情和交易記錄。
 - **可攜性：** 在Heroku上部署，確保系統在任何地點、平台上的可用性。
 
+### 執行方式
+```
+cd zoua
+./mvnw clean package
+java -jar zoua-0.0.1-SNAPSHOT.jar
+
+
+cd zoua/zouafrondend
+npm run build
+node server.js
+
+要搭建自己的資料庫
+```
+
