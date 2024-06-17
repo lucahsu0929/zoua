@@ -57,6 +57,8 @@ cd zoua/zouafrondend
 npm run build
 node server.js
 
-要搭建自己的資料庫
+cd zoua/src/main/resources
+vim application.properties
+=>修改自己的database設定
 ```
 
